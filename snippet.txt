@@ -1,0 +1,16 @@
+<model-viewer src="snail.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="legacy" exposure="2" shadow-softness="0.63" camera-orbit="6.953deg 76.19deg 0.3889m" field-of-view="30deg" autoplay>
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 1164 1165 1166 0.102 0.728 0.170" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">450000</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 8589 8588 5245 0.406 0.024 0.570" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Snail Body</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
